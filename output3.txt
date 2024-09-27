@@ -1,0 +1,9 @@
+Minimum number of multiplications is 181720
+((A1*A2)*(((A3*(A4*A5))*(A6*A7))*A8))
+F1=A1*A2
+F2=A4*A5
+F3=A6*A7
+F4=A3*F2
+F5=F4*F3
+F6=F5*A8
+F1*F6

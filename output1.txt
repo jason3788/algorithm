@@ -1,0 +1,6 @@
+Minimum number of multiplications is 3180
+(A1*(((A2*A3)*A4)*A5))
+F1=A2*A3
+F2=F1*A4
+F3=F2*A5
+A1*F3
